@@ -20,7 +20,9 @@ yarn-error.log*
 *.sln
 *.sw*
 
-.firebase
 src/assets/vik/unused
+.firebase
 firebase.json
 .firebaserc
+firestore.rules
+firestore.indexes.json

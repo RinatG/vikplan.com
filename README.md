@@ -1,4 +1,4 @@
-# vikplan.com
+# vikplan2.ru
 
 ## Project setup
 ```

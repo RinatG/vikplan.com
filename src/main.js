@@ -10,8 +10,8 @@ import './filters'
 
 // Convenience item - this.$http
 //Vue.prototype.$http = axios
-Vue.prototype.$gtag = 'UA-129306328-1';
-Vue.prototype.$baseUrl = "https://vikplan.com";
+Vue.prototype.$gtag = 'G-6YE4S96F30';
+Vue.prototype.$baseUrl = "https://vikplan2.ru";
 Vue.use(Router)
 Vue.use(Meta)
 
