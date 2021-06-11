@@ -4,12 +4,15 @@ import _ from 'lodash';
 import * as firebase from 'firebase/app';
 // These imports load individual services into the firebase namespace.
 import 'firebase/firestore';
-
+ 
 const config = {
-  apiKey: 'AIzaSyBhvtxfowEFqjUNcxHnfmec_9Zf4nFQJVw',
-  databaseURL: 'https://vikings-planner.firebaseio.com',
-  authDomain: 'vikings-planner.firebaseapp.com',
-  projectId: 'vikings-planner'
+  apiKey: "AIzaSyDGrBRUUIOPXLfNzEgAZWYLhUngJz7X0nw",
+  authDomain: "vikplan2.firebaseapp.com",
+  databaseURL: "https://vikplan2.firebaseio.com",
+  projectId: "vikplan2",
+  storageBucket: "vikplan2.appspot.com",
+  messagingSenderId: "721470914813",
+  appId: "1:721470914813:web:257ad4fc8d58d40e2dfe94"
 };
 firebase.initializeApp(config);
 const firestore = firebase.firestore();
@@ -145,11 +148,11 @@ export default {
           created: firebase.firestore.FieldValue.serverTimestamp()
         })
         .then(function(docRef) {
-          //console.log('Document written with ID: ', docRef);
+          console.log('Document written with ID: ', docRef);
           return true;
         })
         .catch(function(error) {
-          //console.error('Error adding document: ', error);
+          console.error('Error adding document: ', error);
           return false;
         });
       // return new Promise((resolve, reject) => {
