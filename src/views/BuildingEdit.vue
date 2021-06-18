@@ -18,9 +18,7 @@
         <div class="select">
           <select v-model.number="minLevel" aria-label="Уровень зданий">
             <option>1</option>
-            <option>15</option>
-            <option>21</option>
-            <option>26</option>
+            <option>27</option>
             <option>31</option>
           </select>
         </div>
@@ -39,6 +37,7 @@
           <th>Время</th>
           <th>Бронза</th>
           <th>Самородок</th>
+          <th>Осколок души</th>
           <th>Требования</th>
           <th>Эффекты</th>
         </tr>
@@ -57,6 +56,7 @@
           </td>
           <td class="is-center">{{ tech.bronze | formatNumber }}</td>
           <td class="is-center">{{ tech.bronze2 | formatNumber }}</td>
+          <td class="is-center">{{ tech.bronze3 | formatNumber }}</td>
           <td>
             <ul class="my-req">
               <li v-show="tech.req1">{{ tech.req1 }}</li>
@@ -122,6 +122,10 @@
                 <th class="has-text-left">Самородок</th>
                 <td class="has-text-right">{{ tech.bronze2 | formatNumber }}</td>
               </tr>
+              <tr v-show="tech.bronze3 > 0">
+                <th class="has-text-left">Осколок души</th>
+                <td class="has-text-right">{{ tech.bronze3 | formatNumber }}</td>
+              </tr>
               <tr>
                 <th class="has-text-left">Требования</th>
                 <td class="has-text-right">
@@ -162,7 +166,7 @@ export default {
   },
   data: function() {
     return {
-      minLevel: 21
+      minLevel: 27
     };
   },
   computed: {

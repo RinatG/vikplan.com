@@ -35,7 +35,7 @@ export default {
       boost: 35,
       repute: 0,
       hands: 33,
-      cost: 15
+      cost: 13
     },
     bonusList: [],
     bonuses: {
@@ -70,7 +70,7 @@ export default {
         shamanBonus2: 0,
 
         costHero: 10,
-        costShaman1: 3,
+        costShaman1: 5,
         costShaman2: 0
       }
     },
@@ -152,6 +152,7 @@ export default {
         time: 0,
         bronze: 0,
         bronze2: 0,
+        bronze3: 0,
         oracle: 0
       };
 
@@ -176,6 +177,7 @@ export default {
             totals.time += (tech.time_days * 86400 + tech.time_seconds) * quantity;
             totals.bronze += tech.bronze * quantity;
             totals.bronze2 += tech.bronze2 * quantity;
+            totals.bronze3 += tech.bronze3 * quantity;
             level -= 1;
           }
         }
@@ -199,6 +201,7 @@ export default {
         time: 0,
         bronze: 0,
         bronze2: 0,
+        bronze3: 0,
         oracle: 0
       };
 
@@ -230,6 +233,7 @@ export default {
             totals.time += (tech.time_days * 86400 + tech.time_seconds) * quantity;
             totals.bronze += tech.bronze * quantity;
             totals.bronze2 += (tech.bronze2 || 0) * quantity;
+            totals.bronze3 += (tech.bronze3 || 0) * quantity;
             level -= 1;
           }
         }

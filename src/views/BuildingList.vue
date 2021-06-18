@@ -185,9 +185,8 @@
               <div class="select">
                 <select v-model.number="minLevel" aria-label="Уровень зданий">
                   <option>1</option>
-                  <option>15</option>
                   <option>21</option>
-                  <option>26</option>
+                  <option>31</option>
                 </select>
               </div>
             </div>
@@ -295,7 +294,7 @@ export default {
   },
   data: function() {
     return {
-      minLevel: 21,
+      minLevel: 31,
       advancedMode: false,
       bonus: {
         id: 'default',
@@ -345,7 +344,12 @@ export default {
         32,
         33,
         34,
-        35
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
       ];
       return _.filter(arr, value => value >= this.minLevel);
     },

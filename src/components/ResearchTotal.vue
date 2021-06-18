@@ -39,8 +39,12 @@
             {{ totals.bronze | formatNumber }}
         </span>
         <span class="tag" v-show="totals.bronze2 > 0" title="Самородок">
-            <span class="img img-bronze2 w20"></span>&nbsp;
+            <span class="img img-goldnugget w20"></span>&nbsp;
             {{ totals.bronze2 | formatNumber }}
+        </span>
+        <span class="tag" v-show="totals.bronze3 > 0" title="Осколок души">
+            <span class="img img-soulshard w20"></span>&nbsp;
+            {{ totals.bronze3 | formatNumber }}
         </span>
         <span class="tag" v-show="totals.scroll > 0" title="Манускрипты / Тотемы / Обсидиан / Осколки душ">
             <span class="img w20" :class="{'img-scroll': totals.type != 'tier6' && totals.type != 'tier7' && !(totals.type == 'secreto' || totals.type == 'secretd' || totals.type == 'secretf'),
