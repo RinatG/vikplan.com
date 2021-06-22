@@ -33,6 +33,7 @@
           <th>Дерево</th>
           <th>Железо</th>
           <th>Камень</th>
+          <th>Серебро</th>
           <th>Золото</th>
           <th>Время</th>
           <th>Бронза</th>
@@ -49,6 +50,7 @@
           <td class="is-center">{{ tech.lumber | roundNumber }}</td>
           <td class="is-center">{{ tech.iron | roundNumber }}</td>
           <td class="is-center">{{ tech.stone | roundNumber }}</td>
+          <td class="is-center">{{ tech.silver | roundNumber }}</td>
           <td class="is-center">{{ tech.gold | roundNumber }}</td>
           <td class="is-center">
             {{ tech.time_days | formatNumber }}д
@@ -102,6 +104,10 @@
               <tr>
                 <th class="has-text-left">Камень</th>
                 <td class="has-text-right">{{ tech.stone | roundNumber }}</td>
+              </tr>
+              <tr>
+                <th class="has-text-left">Серебро</th>
+                <td class="has-text-right">{{ tech.silver | roundNumber }}</td>
               </tr>
               <tr>
                 <th class="has-text-left">Золото</th>
