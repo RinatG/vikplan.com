@@ -42,6 +42,7 @@ export default [
 	{
 		"slug": "building_05",
 		"name": "Ферма",
+		"multiple": true,
 		"effect1_name": "Вместимость",
 		"effect2_name": "Производство в час",
 		"effect3_name": "",
@@ -52,6 +53,7 @@ export default [
 	{
 		"slug": "building_06",
 		"name": "Лесопилка",
+		"multiple": true,
 		"effect1_name": "Вместимость",
 		"effect2_name": "Производство в час",
 		"effect3_name": "",
@@ -62,6 +64,7 @@ export default [
 	{
 		"slug": "building_07",
 		"name": "Рудник",
+		"multiple": true,
 		"effect1_name": "Вместимость",
 		"effect2_name": "Производство в час",
 		"effect3_name": "",
@@ -72,6 +75,7 @@ export default [
 	{
 		"slug": "building_08",
 		"name": "Каменоломня",
+		"multiple": true,
 		"effect1_name": "Вместимость",
 		"effect2_name": "Производство в час",
 		"effect3_name": "",
@@ -82,6 +86,7 @@ export default [
 	{
 		"slug": "building_09",
 		"name": "Поместье",
+		"multiple": true,
 		"effect1_name": "Вместимость",
 		"effect2_name": "Производство в час",
 		"effect3_name": "Скорость обучения",
@@ -92,6 +97,7 @@ export default [
 	{
 		"slug": "building_10",
 		"name": "Казармы",
+		"multiple": true,
 		"effect1_name": "Воинов в обучении",
 		"effect2_name": "",
 		"effect3_name": "",
@@ -102,6 +108,7 @@ export default [
 	{
 		"slug": "building_11",
 		"name": "Лазарет",
+		"multiple": true,
 		"effect1_name": "Вместимость лазарета",
 		"effect2_name": "",
 		"effect3_name": "",
