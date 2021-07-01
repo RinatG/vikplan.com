@@ -59,7 +59,7 @@ order by [level], slug
 for json auto
 
 -- добавляем только новые здания в buildings_list.js
-select slug, [name], (select top 1 effect1_name from [buildings_level] where slug = l.slug order by [level]) effect1_name, (select top 1 effect2_name from [buildings_level] where slug = l.slug order by [level]) effect2_name, (select top 1 effect3_name from [buildings_level] where slug = l.slug order by [level]) effect3_name, string_agg(cast(replace(effect1_value,'%','') as bigint), ';') as effects1, string_agg(cast(replace(effect2_value,'%','') as bigint), ';') as effects2, string_agg(cast(replace(effect3_value,'%','') as bigint), ';') as effects3
+select slug, [name], (select top 1 effect1_name from [buildings_level] where slug = l.slug order by [level]) effect1_name, (select top 1 effect2_name from [buildings_level] where slug = l.slug order by [level]) effect2_name, (select top 1 effect3_name from [buildings_level] where slug = l.slug order by [level]) effect3_name, string_agg(cast(replace(effect1_value,'%','') as bigint), ';') within group (order by [level]) as effects1, string_agg(cast(replace(effect2_value,'%','') as bigint), ';') within group (order by [level]) as effects2, string_agg(cast(replace(effect3_value,'%','') as bigint), ';') within group (order by [level]) as effects3
 from [buildings_level] as l
 --where [level] > 35
 group by slug, [name]

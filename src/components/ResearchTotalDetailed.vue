@@ -52,15 +52,17 @@
       <span class="tag" v-show="totals.bronze > 0" title="Бронза">
         <span class="img img-bronze w20"></span>
         &nbsp;
-        {{ totals.bronze | formatNumber }}
+        {{ totals.bronze | roundNumber }}
       </span>
       <span class="tag" v-show="totals.bronze2 > 0" title="Самородок">
-        Самородок&nbsp;
-        {{ totals.bronze2 | formatNumber }}
+        <span class="img img-goldnugget w20"></span>
+        &nbsp;
+        {{ totals.bronze2 | roundNumber }}
       </span>
-      <span class="tag" v-show="totals.shard > 0" title="Осколки душ">
-        Осколки душ&nbsp;
-        {{ totals.shard | formatNumber }}
+      <span class="tag" v-show="totals.bronze3 > 0" title="Осколок души">
+        <span class="img img-soulshard w20"></span>
+        &nbsp;
+        {{ totals.bronze3 | roundNumber }}
       </span>
     </div>
 
