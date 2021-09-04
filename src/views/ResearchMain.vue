@@ -12,16 +12,16 @@
     <research-collections></research-collections>
 
     <div class="tile is-ancestor">
-      <div class="tile is-parent is-4">
+      <div class="tile is-parent">
         <div class="tile is-child">
-          <research-card v-for="(name, slug) in locale" :name="name" :slug="slug" :key="slug"></research-card>
+          <research-card v-for="(name, slug) in locale_b" :name="name" :slug="slug" :key="slug"></research-card>
+        </div>
+        <div class="tile is-child">
+          <research-card v-for="(name, slug) in locale_s" :name="name" :slug="slug" :key="slug"></research-card>
         </div>
       </div>
 
-      <div class="tile is-parent is-4 is-vertical">
-        <div class="tile is-child">
-          <research-war-bonus></research-war-bonus>
-        </div>
+      <div class="tile is-parent is-2">
         <div class="tile is-child">
           <share-button></share-button>
         </div>
@@ -46,7 +46,7 @@ export default {
   },
   data: function() {
     return {
-      locale: {
+      locale_b: {
         economy: 'Экономические',
         warfare: 'Военные',
         spy: 'Шпионаж',
@@ -57,9 +57,17 @@ export default {
         tier6: 'Тир VI',
         tier7: 'Тир VII',
         shaman: 'Шаманы',
-        secreto: 'Тайные - Нападение',
-        secretd: 'Тайные - Оборона',
-        secretf: 'Тайные - Крепости'
+      },
+      locale_s: {
+        secreto: 'Тайные I - Нападение',
+        secretd: 'Тайные I - Оборона',
+        secretf: 'Тайные I - Крепости I',
+        secret2ofnc: 'Тайные II - Урон',
+        secret2dfnc: 'Тайные II - Защита',
+        secret2hlth: 'Тайные II - Здоровье',
+        secret2frtr: 'Тайные II - Крепости II',
+        secret2twn:  'Тайные II - Города',
+        secret2t8:   'Тайные II - Войска VIII тира'
       }
     };
   },
@@ -80,7 +88,7 @@ export default {
   metaInfo() {
     let description =
       'Калькулятор ресурсов и ускорений для изучения знаний в ветке ' +
-      this.locale[this.researchType] +
+      (this.locale_b[this.researchType]||this.locale_s[this.researchType]) +
       'в игре Vikings: War of Clans. Несколько уровней планирования.';
     return {
       title: 'Обзор знаний',

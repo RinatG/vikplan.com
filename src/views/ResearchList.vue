@@ -83,12 +83,12 @@
           <input class="input" type="text" v-model.number.lazy="bonusCost" style="width:60px;" aria-label="Стоимость">
         </p>
       </div>
-      <div class="field is-vertical" v-if="researchType=='secreto'||researchType=='secretd'||researchType=='secretf'">
+      <div class="field is-vertical" v-if="researchType.startsWith('secret')">
         <span class="label">Уровень: <i class="fa fa-info-circle" title="применяется только к текущей ветке"></i></span>
         <p class="control">
           <span class="select">
             <select v-model.number="bonusLevel" aria-label="Уровень">
-              <option v-for="n in [1,2,3]">{{n}}</option>
+              <option v-for="n in Array(researchType.startsWith('secret2')?6:3).fill().map((x,i)=>i+1)">{{n}}</option>
             </select>
           </span>
         </p>
@@ -227,7 +227,13 @@ export default {
         shaman: 'Шаманы',
         secreto: 'Тайные - Нападение',
         secretd: 'Тайные - Оборона',
-        secretf: 'Тайные - Крепости'
+        secretf: 'Тайные - Крепости',
+        secret2ofnc: 'Тайные II - Урон',
+        secret2dfnc: 'Тайные II - Защита',
+        secret2hlth: 'Тайные II - Здоровье',
+        secret2frtr: 'Тайные II - Крепости II',
+        secret2twn:  'Тайные II - Города',
+        secret2t8:   'Тайные II - Войска VIII тира'
       },
       bonus: {
         id: 'default',

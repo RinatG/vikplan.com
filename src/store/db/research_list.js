@@ -4000,5 +4000,1672 @@ export default [
 		"name": "Здоровье против VII тира в Крепостях",
 		"max_level": 10,
 		"effect_values": "0.5,1,1.5,2,2.5,3,3.5,4,4.5,5"
-	}
+	},
+	{
+        "slug": "secret2ofnc_01",
+        "name": "Лимит обучения I",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 120,
+        "effect_values": "1,6,12,20,28,40,54,72,93,120"
+    }, {
+        "slug": "secret2ofnc_02",
+        "name": "Урон пехоты против убийц",
+        "max_level": 10,
+        "effect_name": "Урон пехоты против убийц",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2ofnc_03",
+        "name": "Урон стрелков против пехоты",
+        "max_level": 10,
+        "effect_name": "Урон стрелков против пехоты",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2ofnc_04",
+        "name": "Урон кавалерии против осадных войск",
+        "max_level": 10,
+        "effect_name": "Урон кавалерии против осадных войск",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2ofnc_05",
+        "name": "Урон пехоты при обороне",
+        "max_level": 10,
+        "effect_name": "Урон пехоты при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_06",
+        "name": "Урон стрелков при обороне",
+        "max_level": 10,
+        "effect_name": "Урон стрелков при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_07",
+        "name": "Урон кавалерии при обороне",
+        "max_level": 10,
+        "effect_name": "Урон кавалерии при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_08",
+        "name": "Урон убийц против кавалерии",
+        "max_level": 10,
+        "effect_name": "Урон убийц против кавалерии",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2ofnc_09",
+        "name": "Урон убийц при обороне",
+        "max_level": 10,
+        "effect_name": "Урон убийц при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_10",
+        "name": "Урон осадных войск против стрелков",
+        "max_level": 10,
+        "effect_name": "Урон осадных войск против стрелков",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2ofnc_11",
+        "name": "Урон осадных войск при обороне",
+        "max_level": 10,
+        "effect_name": "Урон осадных войск при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_12",
+        "name": "Урон войск при обороне I",
+        "max_level": 10,
+        "effect_name": "Урон войск при обороне",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2ofnc_13",
+        "name": "Урон войска I",
+        "max_level": 10,
+        "effect_name": "Урон всех войск",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2ofnc_14",
+        "name": "Урон войск в нападении I",
+        "max_level": 10,
+        "effect_name": "Урон войск в нападении",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2ofnc_15",
+        "name": "Урон воинов VIII тира при обороне",
+        "max_level": 10,
+        "effect_name": "Урон воинов VIII тира при обороне",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2ofnc_16",
+        "name": "Урон пехоты против кавалерии",
+        "max_level": 10,
+        "effect_name": "Урон пехоты против кавалерии",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2ofnc_17",
+        "name": "Урон стрелков против убийц",
+        "max_level": 10,
+        "effect_name": "Урон стрелков против убийц",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2ofnc_18",
+        "name": "Урон кавалерии против стрелков",
+        "max_level": 10,
+        "effect_name": "Урон кавалерии против стрелков",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2ofnc_19",
+        "name": "Урон пехоты в нападении",
+        "max_level": 10,
+        "effect_name": "Урон пехоты в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_20",
+        "name": "Урон стрелков в нападении",
+        "max_level": 10,
+        "effect_name": "Урон стрелков в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_21",
+        "name": "Урон кавалерии в нападении",
+        "max_level": 10,
+        "effect_name": "Урон кавалерии в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_22",
+        "name": "Запасы Еды",
+        "max_level": 10,
+        "effect_name": "Вместимость Фермы",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2ofnc_23",
+        "name": "Урон убийц против осадных войск",
+        "max_level": 10,
+        "effect_name": "Урон убийц против осадных войск",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2ofnc_24",
+        "name": "Запасы Дерева",
+        "max_level": 10,
+        "effect_name": "Вместимость Лесопилки",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2ofnc_25",
+        "name": "Запасы Железа",
+        "max_level": 10,
+        "effect_name": "Вместимость Рудника",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2ofnc_26",
+        "name": "Урон убийц в нападении",
+        "max_level": 10,
+        "effect_name": "Урон убийц в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_27",
+        "name": "Запасы Камня",
+        "max_level": 10,
+        "effect_name": "Вместимость Каменоломни",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2ofnc_28",
+        "name": "Запасы Серебра",
+        "max_level": 10,
+        "effect_name": "Вместимость Поместья",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2ofnc_29",
+        "name": "Урон осадных войск против пехоты",
+        "max_level": 10,
+        "effect_name": "Урон осадных войск против пехоты",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2ofnc_30",
+        "name": "Скорость обучения",
+        "max_level": 10,
+        "effect_name": "Скорость обучения воинов",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2ofnc_31",
+        "name": "Скорость исцеления воинов",
+        "max_level": 10,
+        "effect_name": "Скорость исцеления воинов",
+        "effect_max": 70,
+        "effect_values": "3,6,9,13,18,25,33,43,55,70"
+    }, {
+        "slug": "secret2ofnc_32",
+        "name": "Урон осадных войск в нападении",
+        "max_level": 10,
+        "effect_name": "Урон осадных войск в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_33",
+        "name": "Вместимость Лазаретов",
+        "max_level": 10,
+        "effect_name": "Вместимость Лазаретов",
+        "effect_max": 150,
+        "effect_values": "5,13,22,32,44,58,75,96,120,150"
+    }, {
+        "slug": "secret2ofnc_34",
+        "name": "Урон шпионов в нападении",
+        "max_level": 10,
+        "effect_name": "Урон шпионов в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_35",
+        "name": "Урон шпионов при обороне",
+        "max_level": 10,
+        "effect_name": "Урон шпионов при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_36",
+        "name": "Урон войск при обороне II",
+        "max_level": 10,
+        "effect_name": "Урон войск при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_37",
+        "name": "Лимит обучения II",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 100,
+        "effect_values": "1,7,13,19,27,37,49,63,80,100"
+    }, {
+        "slug": "secret2ofnc_38",
+        "name": "Урон войск в нападении II",
+        "max_level": 10,
+        "effect_name": "Урон войск в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2ofnc_39",
+        "name": "Урон войска II",
+        "max_level": 10,
+        "effect_name": "Урон всех войск",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2ofnc_40",
+        "name": "Урон воинов VIII тира в нападении",
+        "max_level": 10,
+        "effect_name": "Урон воинов VIII тира в нападении",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2ofnc_41",
+        "name": "Количество воинов в походе",
+        "max_level": 10,
+        "effect_name": "Количество воинов в походе",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2ofnc_42",
+        "name": "Урон Тора",
+        "max_level": 10,
+        "effect_name": "Урон всех войск",
+        "effect_max": 160,
+        "effect_values": "5,12,19,26,33,41,52,69,100,160"
+    }, {
+        "slug": "secret2dfnc_01",
+        "name": "Лимит обучения I",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 120,
+        "effect_values": "1,6,12,20,28,40,54,72,93,120"
+    }, {
+        "slug": "secret2dfnc_02",
+        "name": "Защита пехоты против убийц",
+        "max_level": 10,
+        "effect_name": "Защита пехоты против убийц",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2dfnc_03",
+        "name": "Защита стрелков против пехоты",
+        "max_level": 10,
+        "effect_name": "Защита стрелков против пехоты",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2dfnc_04",
+        "name": "Защита кавалерии против осадных войск",
+        "max_level": 10,
+        "effect_name": "Защита кавалерии против осадных войск",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2dfnc_05",
+        "name": "Защита пехоты при обороне",
+        "max_level": 10,
+        "effect_name": "Защита пехоты при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_06",
+        "name": "Защита стрелков при обороне",
+        "max_level": 10,
+        "effect_name": "Защита стрелков при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_07",
+        "name": "Защита кавалерии при обороне",
+        "max_level": 10,
+        "effect_name": "Защита кавалерии при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_08",
+        "name": "Защита убийц против кавалерии",
+        "max_level": 10,
+        "effect_name": "Защита убийц против кавалерии",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2dfnc_09",
+        "name": "Защита убийц при обороне",
+        "max_level": 10,
+        "effect_name": "Защита убийц при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_10",
+        "name": "Защита осадных войск против стрелков",
+        "max_level": 10,
+        "effect_name": "Защита осадных войск против стрелков",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2dfnc_11",
+        "name": "Защита осадных войск при обороне",
+        "max_level": 10,
+        "effect_name": "Защита осадных войск при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_12",
+        "name": "Защита войск при обороне I",
+        "max_level": 10,
+        "effect_name": "Защита войск при обороне",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2dfnc_13",
+        "name": "Защита войска I",
+        "max_level": 10,
+        "effect_name": "Защита всех войск",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2dfnc_14",
+        "name": "Защита войск в нападении I",
+        "max_level": 10,
+        "effect_name": "Защита войск в нападении",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2dfnc_15",
+        "name": "Защита воинов VIII тира при обороне",
+        "max_level": 10,
+        "effect_name": "Защита воинов VIII тира при обороне",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2dfnc_16",
+        "name": "Защита пехоты против кавалерии",
+        "max_level": 10,
+        "effect_name": "Защита пехоты против кавалерии",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2dfnc_17",
+        "name": "Защита стрелков против убийц",
+        "max_level": 10,
+        "effect_name": "Защита стрелков против убийц",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2dfnc_18",
+        "name": "Защита кавалерии против стрелков",
+        "max_level": 10,
+        "effect_name": "Защита кавалерии против стрелков",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2dfnc_19",
+        "name": "Защита пехоты в нападении",
+        "max_level": 10,
+        "effect_name": "Защита пехоты в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_20",
+        "name": "Защита стрелков в нападении",
+        "max_level": 10,
+        "effect_name": "Защита стрелков в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_21",
+        "name": "Защита кавалерии в нападении",
+        "max_level": 10,
+        "effect_name": "Защита кавалерии в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_22",
+        "name": "Фермерство",
+        "max_level": 10,
+        "effect_name": "Производство Еды",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2dfnc_23",
+        "name": "Защита убийц против осадных войск",
+        "max_level": 10,
+        "effect_name": "Защита убийц против осадных войск",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2dfnc_24",
+        "name": "Деревообработка",
+        "max_level": 10,
+        "effect_name": "Производство Дерева",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2dfnc_25",
+        "name": "Металлургия",
+        "max_level": 10,
+        "effect_name": "Производство Железа",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2dfnc_26",
+        "name": "Защита убийц в нападении",
+        "max_level": 10,
+        "effect_name": "Защита убийц в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_27",
+        "name": "Горное дело",
+        "max_level": 10,
+        "effect_name": "Производство Камня",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2dfnc_28",
+        "name": "Производство Серебра",
+        "max_level": 10,
+        "effect_name": "Производство Серебра",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2dfnc_29",
+        "name": "Защита осадных войск против пехоты",
+        "max_level": 10,
+        "effect_name": "Защита осадных войск против пехоты",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2dfnc_30",
+        "name": "Скорость обучения",
+        "max_level": 10,
+        "effect_name": "Скорость обучения воинов",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2dfnc_31",
+        "name": "Скорость исцеления воинов",
+        "max_level": 10,
+        "effect_name": "Скорость исцеления воинов",
+        "effect_max": 70,
+        "effect_values": "3,6,9,13,18,25,33,43,55,70"
+    }, {
+        "slug": "secret2dfnc_32",
+        "name": "Защита осадных войск в нападении",
+        "max_level": 10,
+        "effect_name": "Защита осадных войск в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_33",
+        "name": "Вместимость Лазаретов",
+        "max_level": 10,
+        "effect_name": "Вместимость Лазаретов",
+        "effect_max": 150,
+        "effect_values": "5,13,22,32,44,58,75,96,120,150"
+    }, {
+        "slug": "secret2dfnc_34",
+        "name": "Защита шпионов в нападении",
+        "max_level": 10,
+        "effect_name": "Защита шпионов в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_35",
+        "name": "Защита шпионов при обороне",
+        "max_level": 10,
+        "effect_name": "Защита шпионов при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_36",
+        "name": "Защита войск при обороне II",
+        "max_level": 10,
+        "effect_name": "Защита войск при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_37",
+        "name": "Лимит обучения II",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 100,
+        "effect_values": "1,7,13,19,27,37,49,63,80,100"
+    }, {
+        "slug": "secret2dfnc_38",
+        "name": "Защита войск в нападении II",
+        "max_level": 10,
+        "effect_name": "Защита войск в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2dfnc_39",
+        "name": "Защита войска II",
+        "max_level": 10,
+        "effect_name": "Защита всех войск",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2dfnc_40",
+        "name": "Защита воинов VIII тира в нападении",
+        "max_level": 10,
+        "effect_name": "Защита воинов VIII тира в нападении",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2dfnc_41",
+        "name": "Количество воинов в походе",
+        "max_level": 10,
+        "effect_name": "Количество воинов в походе",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2dfnc_42",
+        "name": "Защита Тора",
+        "max_level": 10,
+        "effect_name": "Защита всех войск",
+        "effect_max": 160,
+        "effect_values": "5,12,19,26,33,41,52,69,100,160"
+    }, {
+        "slug": "secret2hlth_01",
+        "name": "Лимит обучения I",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 120,
+        "effect_values": "1,6,12,20,28,40,54,72,93,120"
+    }, {
+        "slug": "secret2hlth_02",
+        "name": "Здоровье пехоты против убийц",
+        "max_level": 10,
+        "effect_name": "Здоровье пехоты против убийц",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2hlth_03",
+        "name": "Здоровье стрелков против пехоты",
+        "max_level": 10,
+        "effect_name": "Здоровье стрелков против пехоты",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2hlth_04",
+        "name": "Здоровье кавалерии против осадных войск",
+        "max_level": 10,
+        "effect_name": "Здоровье кавалерии против осадных войск",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2hlth_05",
+        "name": "Здоровье пехоты при обороне",
+        "max_level": 10,
+        "effect_name": "Здоровье пехоты при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_06",
+        "name": "Здоровье стрелков при обороне",
+        "max_level": 10,
+        "effect_name": "Здоровье стрелков при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_07",
+        "name": "Здоровье кавалерии при обороне",
+        "max_level": 10,
+        "effect_name": "Здоровье кавалерии при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_08",
+        "name": "Здоровье убийц против кавалерии",
+        "max_level": 10,
+        "effect_name": "Здоровье убийц против кавалерии",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2hlth_09",
+        "name": "Здоровье убийц при обороне",
+        "max_level": 10,
+        "effect_name": "Здоровье убийц при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_10",
+        "name": "Здоровье осадных войск против стрелков",
+        "max_level": 10,
+        "effect_name": "Здоровье осадных войск против стрелков",
+        "effect_max": 8,
+        "effect_values": "0.5,1,1.5,2,2.5,3,4,5,6.5,8"
+    }, {
+        "slug": "secret2hlth_11",
+        "name": "Здоровье осадных войск при обороне",
+        "max_level": 10,
+        "effect_name": "Здоровье осадных войск при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_12",
+        "name": "Здоровье войск при обороне I",
+        "max_level": 10,
+        "effect_name": "Здоровье войск при обороне",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2hlth_13",
+        "name": "Здоровье войска I",
+        "max_level": 10,
+        "effect_name": "Здоровье всех войск",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2hlth_14",
+        "name": "Здоровье войск в нападении I",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в нападении",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2hlth_15",
+        "name": "Здоровье воинов VIII тира при обороне",
+        "max_level": 10,
+        "effect_name": "Здоровье воинов VIII тира при обороне",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2hlth_16",
+        "name": "Здоровье пехоты против кавалерии",
+        "max_level": 10,
+        "effect_name": "Здоровье пехоты против кавалерии",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2hlth_17",
+        "name": "Здоровье стрелков против убийц",
+        "max_level": 10,
+        "effect_name": "Здоровье стрелков против убийц",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2hlth_18",
+        "name": "Здоровье кавалерии против стрелков",
+        "max_level": 10,
+        "effect_name": "Здоровье кавалерии против стрелков",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2hlth_19",
+        "name": "Здоровье пехоты в нападении",
+        "max_level": 10,
+        "effect_name": "Здоровье пехоты в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_20",
+        "name": "Здоровье стрелков в нападении",
+        "max_level": 10,
+        "effect_name": "Здоровье стрелков в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_21",
+        "name": "Здоровье кавалерии в нападении",
+        "max_level": 10,
+        "effect_name": "Здоровье кавалерии в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_22",
+        "name": "Фермерство",
+        "max_level": 10,
+        "effect_name": "Производство Еды",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2hlth_23",
+        "name": "Здоровье убийц против осадных войск",
+        "max_level": 10,
+        "effect_name": "Здоровье убийц против осадных войск",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2hlth_24",
+        "name": "Деревообработка",
+        "max_level": 10,
+        "effect_name": "Производство Дерева",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2hlth_25",
+        "name": "Металлургия",
+        "max_level": 10,
+        "effect_name": "Производство Железа",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2hlth_26",
+        "name": "Здоровье убийц в нападении",
+        "max_level": 10,
+        "effect_name": "Здоровье убийц в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_27",
+        "name": "Горное дело",
+        "max_level": 10,
+        "effect_name": "Производство Камня",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2hlth_28",
+        "name": "Производство Серебра",
+        "max_level": 10,
+        "effect_name": "Производство Серебра",
+        "effect_max": 450,
+        "effect_values": "5,30,57,87,120,170,220,280,360,450"
+    }, {
+        "slug": "secret2hlth_29",
+        "name": "Здоровье осадных войск против пехоты",
+        "max_level": 10,
+        "effect_name": "Здоровье осадных войск против пехоты",
+        "effect_max": 16,
+        "effect_values": "1,2,3,4,5,6,8,10,13,16"
+    }, {
+        "slug": "secret2hlth_30",
+        "name": "Скорость обучения",
+        "max_level": 10,
+        "effect_name": "Скорость обучения воинов",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2hlth_31",
+        "name": "Скорость исцеления воинов",
+        "max_level": 10,
+        "effect_name": "Скорость исцеления воинов",
+        "effect_max": 70,
+        "effect_values": "3,6,9,13,18,25,33,43,55,70"
+    }, {
+        "slug": "secret2hlth_32",
+        "name": "Здоровье осадных войск в нападении",
+        "max_level": 10,
+        "effect_name": "Здоровье осадных войск в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_33",
+        "name": "Вместимость Лазаретов",
+        "max_level": 10,
+        "effect_name": "Вместимость Лазаретов",
+        "effect_max": 150,
+        "effect_values": "5,13,22,32,44,58,75,96,120,150"
+    }, {
+        "slug": "secret2hlth_34",
+        "name": "Здоровье шпионов в нападении",
+        "max_level": 10,
+        "effect_name": "Здоровье шпионов в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_35",
+        "name": "Здоровье шпионов при обороне",
+        "max_level": 10,
+        "effect_name": "Здоровье шпионов при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_36",
+        "name": "Здоровье войск при обороне II",
+        "max_level": 10,
+        "effect_name": "Здоровье войск при обороне",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_37",
+        "name": "Лимит обучения II",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 100,
+        "effect_values": "1,7,13,19,27,37,49,63,80,100"
+    }, {
+        "slug": "secret2hlth_38",
+        "name": "Здоровье войск в нападении II",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в нападении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2hlth_39",
+        "name": "Здоровье войска II",
+        "max_level": 10,
+        "effect_name": "Здоровье всех войск",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2hlth_40",
+        "name": "Здоровье воинов VIII тира в нападении",
+        "max_level": 10,
+        "effect_name": "Здоровье воинов VIII тира в нападении",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2hlth_41",
+        "name": "Количество воинов в походе",
+        "max_level": 10,
+        "effect_name": "Количество воинов в походе",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2hlth_42",
+        "name": "Здоровье Тора",
+        "max_level": 10,
+        "effect_name": "Здоровье всех войск",
+        "effect_max": 160,
+        "effect_values": "5,12,19,26,33,41,52,69,100,160"
+    }, {
+        "slug": "secret2frtr_01",
+        "name": "Скорость обучения",
+        "max_level": 10,
+        "effect_name": "Скорость обучения воинов",
+        "effect_max": 50,
+        "effect_values": "1,3,6,9,14,19,25,32,40,50"
+    }, {
+        "slug": "secret2frtr_02",
+        "name": "Урон войск при захвате Крепостей I",
+        "max_level": 10,
+        "effect_name": "Урон войск при захвате Крепостей",
+        "effect_max": 70,
+        "effect_values": "1,4,8,13,19,26,34,45,56,70"
+    }, {
+        "slug": "secret2frtr_03",
+        "name": "Защита войск при захвате Крепостей I",
+        "max_level": 10,
+        "effect_name": "Защита войск при захвате Крепостей",
+        "effect_max": 70,
+        "effect_values": "1,4,8,13,19,26,34,45,56,70"
+    }, {
+        "slug": "secret2frtr_04",
+        "name": "Здоровье войск при захвате Крепостей I",
+        "max_level": 10,
+        "effect_name": "Здоровье войск при захвате Крепостей",
+        "effect_max": 70,
+        "effect_values": "1,4,8,13,19,26,34,45,56,70"
+    }, {
+        "slug": "secret2frtr_05",
+        "name": "Урон войск при обороне Крепостей I",
+        "max_level": 10,
+        "effect_name": "Урон войск при обороне Крепостей",
+        "effect_max": 70,
+        "effect_values": "1,4,8,13,19,26,34,45,56,70"
+    }, {
+        "slug": "secret2frtr_06",
+        "name": "Защита войск при обороне Крепостей I",
+        "max_level": 10,
+        "effect_name": "Защита войск при обороне Крепостей",
+        "effect_max": 70,
+        "effect_values": "1,4,8,13,19,26,34,45,56,70"
+    }, {
+        "slug": "secret2frtr_07",
+        "name": "Здоровье войск при обороне Крепостей I",
+        "max_level": 10,
+        "effect_name": "Здоровье войск при обороне Крепостей",
+        "effect_max": 70,
+        "effect_values": "1,4,8,13,19,26,34,45,56,70"
+    }, {
+        "slug": "secret2frtr_08",
+        "name": "Урон войск в Крепостях I",
+        "max_level": 10,
+        "effect_name": "Урон войск в Крепостях",
+        "effect_max": 30,
+        "effect_values": "1,2,4,6,8,11,15,19,24,30"
+    }, {
+        "slug": "secret2frtr_09",
+        "name": "Защита войск в Крепостях I",
+        "max_level": 10,
+        "effect_name": "Защита войск в Крепостях",
+        "effect_max": 30,
+        "effect_values": "1,2,4,6,8,11,15,19,24,30"
+    }, {
+        "slug": "secret2frtr_10",
+        "name": "Здоровье войск в Крепостях I",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в Крепостях",
+        "effect_max": 30,
+        "effect_values": "1,2,4,6,8,11,15,19,24,30"
+    }, {
+        "slug": "secret2frtr_11",
+        "name": "Здоровье воинов VIII тира в Крепостях",
+        "max_level": 10,
+        "effect_name": "Здоровье воинов VIII тира в Крепостях",
+        "effect_max": 50,
+        "effect_values": "1,3,6,9,14,19,25,32,40,50"
+    }, {
+        "slug": "secret2frtr_12",
+        "name": "Урон войск при захвате Крепостей II",
+        "max_level": 10,
+        "effect_name": "Урон войск при захвате Крепостей",
+        "effect_max": 100,
+        "effect_values": "1,6,11,18,26,37,49,63,80,100"
+    }, {
+        "slug": "secret2frtr_13",
+        "name": "Защита войск при захвате Крепостей II",
+        "max_level": 10,
+        "effect_name": "Защита войск при захвате Крепостей",
+        "effect_max": 100,
+        "effect_values": "1,6,11,18,26,37,49,63,80,100"
+    }, {
+        "slug": "secret2frtr_14",
+        "name": "Здоровье войск при захвате Крепостей II",
+        "max_level": 10,
+        "effect_name": "Здоровье войск при захвате Крепостей",
+        "effect_max": 100,
+        "effect_values": "1,6,11,18,26,37,49,63,80,100"
+    }, {
+        "slug": "secret2frtr_15",
+        "name": "Урон войск при обороне Крепостей II",
+        "max_level": 10,
+        "effect_name": "Урон войск при обороне Крепостей",
+        "effect_max": 100,
+        "effect_values": "1,6,11,18,26,37,49,63,80,100"
+    }, {
+        "slug": "secret2frtr_16",
+        "name": "Защита войск при обороне Крепостей II",
+        "max_level": 10,
+        "effect_name": "Защита войск при обороне Крепостей",
+        "effect_max": 100,
+        "effect_values": "1,6,11,18,26,37,49,63,80,100"
+    }, {
+        "slug": "secret2frtr_17",
+        "name": "Здоровье войск при обороне Крепостей II",
+        "max_level": 10,
+        "effect_name": "Здоровье войск при обороне Крепостей",
+        "effect_max": 100,
+        "effect_values": "1,6,11,18,26,37,49,63,80,100"
+    }, {
+        "slug": "secret2frtr_18",
+        "name": "Урон войск в Крепостях II",
+        "max_level": 10,
+        "effect_name": "Урон войск в Крепостях",
+        "effect_max": 50,
+        "effect_values": "1,3,6,9,14,19,25,32,40,50"
+    }, {
+        "slug": "secret2frtr_19",
+        "name": "Защита войск в Крепостях II",
+        "max_level": 10,
+        "effect_name": "Защита войск в Крепостях",
+        "effect_max": 50,
+        "effect_values": "1,3,6,9,14,19,25,32,40,50"
+    }, {
+        "slug": "secret2frtr_20",
+        "name": "Здоровье войск в Крепостях II",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в Крепостях",
+        "effect_max": 50,
+        "effect_values": "1,3,6,9,14,19,25,32,40,50"
+    }, {
+        "slug": "secret2frtr_21",
+        "name": "Защита воинов VIII тира в Крепостях",
+        "max_level": 10,
+        "effect_name": "Защита воинов VIII тира в Крепостях",
+        "effect_max": 50,
+        "effect_values": "1,3,6,9,14,19,25,32,40,50"
+    }, {
+        "slug": "secret2frtr_22",
+        "name": "Урон войск при захвате Крепостей III",
+        "max_level": 10,
+        "effect_name": "Урон войск при захвате Крепостей",
+        "effect_max": 130,
+        "effect_values": "3,9,15,23,32,44,59,78,100,130"
+    }, {
+        "slug": "secret2frtr_23",
+        "name": "Защита войск при захвате Крепостей III",
+        "max_level": 10,
+        "effect_name": "Защита войск при захвате Крепостей",
+        "effect_max": 130,
+        "effect_values": "3,9,15,23,32,44,59,78,100,130"
+    }, {
+        "slug": "secret2frtr_24",
+        "name": "Здоровье войск при захвате Крепостей III",
+        "max_level": 10,
+        "effect_name": "Здоровье войск при захвате Крепостей",
+        "effect_max": 130,
+        "effect_values": "3,9,15,23,32,44,59,78,100,130"
+    }, {
+        "slug": "secret2frtr_25",
+        "name": "Урон войск при обороне Крепостей III",
+        "max_level": 10,
+        "effect_name": "Урон войск при обороне Крепостей",
+        "effect_max": 130,
+        "effect_values": "3,9,15,23,32,44,59,78,100,130"
+    }, {
+        "slug": "secret2frtr_26",
+        "name": "Защита войск при обороне Крепостей III",
+        "max_level": 10,
+        "effect_name": "Защита войск при обороне Крепостей",
+        "effect_max": 130,
+        "effect_values": "3,9,15,23,32,44,59,78,100,130"
+    }, {
+        "slug": "secret2frtr_27",
+        "name": "Здоровье войск при обороне Крепостей III",
+        "max_level": 10,
+        "effect_name": "Здоровье войск при обороне Крепостей",
+        "effect_max": 130,
+        "effect_values": "3,9,15,23,32,44,59,78,100,130"
+    }, {
+        "slug": "secret2frtr_28",
+        "name": "Урон войск в Крепостях III",
+        "max_level": 10,
+        "effect_name": "Урон войск в Крепостях",
+        "effect_max": 70,
+        "effect_values": "1,4,8,13,19,26,34,45,56,70"
+    }, {
+        "slug": "secret2frtr_29",
+        "name": "Защита войск в Крепостях III",
+        "max_level": 10,
+        "effect_name": "Защита войск в Крепостях",
+        "effect_max": 70,
+        "effect_values": "1,4,8,13,19,26,34,45,56,70"
+    }, {
+        "slug": "secret2frtr_30",
+        "name": "Здоровье войск в Крепостях III",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в Крепостях",
+        "effect_max": 70,
+        "effect_values": "1,4,8,13,19,26,34,45,56,70"
+    }, {
+        "slug": "secret2frtr_31",
+        "name": "Лимит обучения",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 200,
+        "effect_values": "5,14,23,32,44,59,80,110,150,200"
+    }, {
+        "slug": "secret2frtr_32",
+        "name": "Численность отряда в Штурме",
+        "max_level": 10,
+        "effect_name": "Численность отряда в Штурме",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,10,13,16,20,25"
+    }, {
+        "slug": "secret2frtr_33",
+        "name": "Урон воинов VIII тира в Крепостях",
+        "max_level": 10,
+        "effect_name": "Урон воинов VIII тира в Крепостях",
+        "effect_max": 50,
+        "effect_values": "1,3,6,9,14,19,25,32,40,50"
+    }, {
+        "slug": "secret2frtr_34",
+        "name": "Количество воинов в Штурме",
+        "max_level": 10,
+        "effect_name": "Количество воинов в Штурме",
+        "effect_max": 50,
+        "effect_values": "1,3,6,9,14,19,25,32,40,50"
+    }, {
+        "slug": "secret2twn_01",
+        "name": "Количество воинов в подкреплениях I",
+        "max_level": 10,
+        "effect_name": "Количество воинов в подкреплениях",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2twn_02",
+        "name": "Скорость шпионов I",
+        "max_level": 10,
+        "effect_name": "Скорость шпионов",
+        "effect_max": 100,
+        "effect_values": "5,12,19,26,35,44,55,68,83,100"
+    }, {
+        "slug": "secret2twn_03",
+        "name": "Здоровье войск при обороне городов I",
+        "max_level": 10,
+        "effect_name": "Здоровье войск при обороне городов",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,9,12,16,20,25"
+    }, {
+        "slug": "secret2twn_04",
+        "name": "Здоровье войск в городах I",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в городах",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,9,12,16,20,25"
+    }, {
+        "slug": "secret2twn_05",
+        "name": "Здоровье войск в нападении на города I",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в нападении на города",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,9,12,16,20,25"
+    }, {
+        "slug": "secret2twn_06",
+        "name": "Лимит обучения I",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_07",
+        "name": "Защита войск в городах I",
+        "max_level": 10,
+        "effect_name": "Защита войск в городах",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,9,12,16,20,25"
+    }, {
+        "slug": "secret2twn_08",
+        "name": "Скорость обучения",
+        "max_level": 10,
+        "effect_name": "Скорость обучения воинов",
+        "effect_max": 35,
+        "effect_values": "1,3,5,8,11,15,19,23,29,35"
+    }, {
+        "slug": "secret2twn_09",
+        "name": "Защита войск при обороне городов I",
+        "max_level": 10,
+        "effect_name": "Защита войск при обороне городов",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,9,12,16,20,25"
+    }, {
+        "slug": "secret2twn_10",
+        "name": "Урон войск в городах I",
+        "max_level": 10,
+        "effect_name": "Урон войск в городах",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,9,12,16,20,25"
+    }, {
+        "slug": "secret2twn_11",
+        "name": "Защита войск в нападении на города I",
+        "max_level": 10,
+        "effect_name": "Защита войск в нападении на города",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,9,12,16,20,25"
+    }, {
+        "slug": "secret2twn_12",
+        "name": "Вместимость Лазаретов I",
+        "max_level": 10,
+        "effect_name": "Вместимость Лазаретов",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2twn_13",
+        "name": "Здоровье войск в городах II",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в городах",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2twn_14",
+        "name": "Скорость исцеления воинов I",
+        "max_level": 10,
+        "effect_name": "Скорость исцеления воинов",
+        "effect_max": 30,
+        "effect_values": "1,3,5,7,9,12,15,19,24,30"
+    }, {
+        "slug": "secret2twn_15",
+        "name": "Урон войск при обороне городов I",
+        "max_level": 10,
+        "effect_name": "Урон войск при обороне городов",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,9,12,16,20,25"
+    }, {
+        "slug": "secret2twn_16",
+        "name": "Защита войск в городах II",
+        "max_level": 10,
+        "effect_name": "Защита войск в городах",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2twn_17",
+        "name": "Урон войск в нападении на города I",
+        "max_level": 10,
+        "effect_name": "Урон войск в нападении на города",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,9,12,16,20,25"
+    }, {
+        "slug": "secret2twn_18",
+        "name": "Количество шпионов в отряде I",
+        "max_level": 10,
+        "effect_name": "Количество шпионов в отряде",
+        "effect_max": 15,
+        "effect_values": "1,2,3,4,5,6,8,10,12,15"
+    }, {
+        "slug": "secret2twn_19",
+        "name": "Урон войск в городах II",
+        "max_level": 10,
+        "effect_name": "Урон войск в городах",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2twn_20",
+        "name": "Лимит обучения II",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_21",
+        "name": "Здоровье воинов VIII тира в городах",
+        "max_level": 10,
+        "effect_name": "Здоровье воинов VIII тира в городах",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_22",
+        "name": "Здоровье войск в городах III",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в городах",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_23",
+        "name": "Здоровье войск при обороне городов II",
+        "max_level": 10,
+        "effect_name": "Здоровье войск при обороне городов",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_24",
+        "name": "Здоровье войск в городах IV",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в городах",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_25",
+        "name": "Скорость шпионов II",
+        "max_level": 10,
+        "effect_name": "Скорость шпионов",
+        "effect_max": 150,
+        "effect_values": "5,15,26,37,50,65,82,100,120,150"
+    }, {
+        "slug": "secret2twn_26",
+        "name": "Здоровье войск в нападении на города II",
+        "max_level": 10,
+        "effect_name": "Здоровье войск в нападении на города",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_27",
+        "name": "Скорость исцеления воинов II",
+        "max_level": 10,
+        "effect_name": "Скорость исцеления воинов",
+        "effect_max": 70,
+        "effect_values": "1,4,8,12,17,23,32,42,55,70"
+    }, {
+        "slug": "secret2twn_28",
+        "name": "Защита войск в городах III",
+        "max_level": 10,
+        "effect_name": "Защита войск в городах",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_29",
+        "name": "Защита войск в нападении на города II",
+        "max_level": 10,
+        "effect_name": "Защита войск в нападении на города",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_30",
+        "name": "Защита войск в городах IV",
+        "max_level": 10,
+        "effect_name": "Защита войск в городах",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_31",
+        "name": "Количество воинов в подкреплениях II",
+        "max_level": 10,
+        "effect_name": "Количество воинов в подкреплениях",
+        "effect_max": 100,
+        "effect_values": "5,12,19,26,35,44,55,68,83,100"
+    }, {
+        "slug": "secret2twn_32",
+        "name": "Защита войск при обороне городов II",
+        "max_level": 10,
+        "effect_name": "Защита войск при обороне городов",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_33",
+        "name": "Вместимость Лазаретов II",
+        "max_level": 10,
+        "effect_name": "Вместимость Лазаретов",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_34",
+        "name": "Урон войск в городах III",
+        "max_level": 10,
+        "effect_name": "Урон войск в городах",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_35",
+        "name": "Урон войск в нападении на города II",
+        "max_level": 10,
+        "effect_name": "Урон войск в нападении на города",
+        "effect_max": 150,
+        "effect_values": "5,15,26,37,50,65,82,100,120,150"
+    }, {
+        "slug": "secret2twn_36",
+        "name": "Урон войск в городах IV",
+        "max_level": 10,
+        "effect_name": "Урон войск в городах",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_37",
+        "name": "Количество воинов в Штурме I",
+        "max_level": 10,
+        "effect_name": "Количество воинов в Штурме",
+        "effect_max": 15,
+        "effect_values": "1,2,3,4,5,6,8,10,12,15"
+    }, {
+        "slug": "secret2twn_38",
+        "name": "Урон войск при обороне городов II",
+        "max_level": 10,
+        "effect_name": "Урон войск при обороне городов",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_39",
+        "name": "Количество шпионов в отряде II",
+        "max_level": 10,
+        "effect_name": "Количество шпионов в отряде",
+        "effect_max": 50,
+        "effect_values": "1,4,8,12,16,21,27,33,41,50"
+    }, {
+        "slug": "secret2twn_40",
+        "name": "Защита воинов VIII тира в городах",
+        "max_level": 10,
+        "effect_name": "Защита воинов VIII тира в городах",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2twn_41",
+        "name": "Количество воинов в Штурме II",
+        "max_level": 10,
+        "effect_name": "Количество воинов в Штурме",
+        "effect_max": 35,
+        "effect_values": "1,3,5,8,11,15,19,23,29,35"
+    }, {
+        "slug": "secret2twn_42",
+        "name": "Количество воинов в походе",
+        "max_level": 10,
+        "effect_name": "Количество воинов в походе",
+        "effect_max": 20,
+        "effect_values": "1,2,3,5,7,9,11,13,16,20"
+    }, {
+        "slug": "secret2twn_43",
+        "name": "Жажда крови",
+        "max_level": 10,
+        "effect_name": "Урон войск в нападении на города",
+        "effect_max": 200,
+        "effect_values": "5,16,27,38,50,64,83,110,150,200"
+    }, {
+        "slug": "secret2twn_44",
+        "name": "Урон воинов VIII тира в городах",
+        "max_level": 10,
+        "effect_name": "Урон воинов VIII тира в городах",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2t8_01",
+        "name": "Лимит обучения I",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 100,
+        "effect_values": "1,5,10,16,24,33,45,60,78,100"
+    }, {
+        "slug": "secret2t8_02",
+        "name": "Открытие Драугов",
+        "max_level": 1,
+        "effect_name": "Открытие Драугов",
+        "effect_max": 1,
+        "effect_values": "1"
+    }, {
+        "slug": "secret2t8_03",
+        "name": "Открытие Аптгангов",
+        "max_level": 1,
+        "effect_name": "Открытие Аптгангов",
+        "effect_max": 1,
+        "effect_values": "1"
+    }, {
+        "slug": "secret2t8_04",
+        "name": "Открытие Хельхестов",
+        "max_level": 1,
+        "effect_name": "Открытие Хельхестов",
+        "effect_max": 1,
+        "effect_values": "1"
+    }, {
+        "slug": "secret2t8_05",
+        "name": "Урон Драугов",
+        "max_level": 10,
+        "effect_name": "Урон Драугов",
+        "effect_max": 130,
+        "effect_values": "1,7,13,20,30,41,56,75,97,130"
+    }, {
+        "slug": "secret2t8_06",
+        "name": "Урон Аптгангов",
+        "max_level": 10,
+        "effect_name": "Урон Аптгангов",
+        "effect_max": 130,
+        "effect_values": "1,7,13,20,30,41,56,75,97,130"
+    }, {
+        "slug": "secret2t8_07",
+        "name": "Урон Хельхестов",
+        "max_level": 10,
+        "effect_name": "Урон Хельхестов",
+        "effect_max": 130,
+        "effect_values": "1,7,13,20,30,41,56,75,97,130"
+    }, {
+        "slug": "secret2t8_08",
+        "name": "Защита Драугов",
+        "max_level": 10,
+        "effect_name": "Защита Драугов",
+        "effect_max": 130,
+        "effect_values": "1,7,13,20,30,41,56,75,97,130"
+    }, {
+        "slug": "secret2t8_09",
+        "name": "Защита Аптгангов",
+        "max_level": 10,
+        "effect_name": "Защита Аптгангов",
+        "effect_max": 130,
+        "effect_values": "1,7,13,20,30,41,56,75,97,130"
+    }, {
+        "slug": "secret2t8_10",
+        "name": "Защита Хельхестов",
+        "max_level": 10,
+        "effect_name": "Защита Хельхестов",
+        "effect_max": 130,
+        "effect_values": "1,7,13,20,30,41,56,75,97,130"
+    }, {
+        "slug": "secret2t8_11",
+        "name": "Здоровье Драугов",
+        "max_level": 10,
+        "effect_name": "Здоровье Драугов",
+        "effect_max": 130,
+        "effect_values": "1,7,13,20,30,41,56,75,97,130"
+    }, {
+        "slug": "secret2t8_12",
+        "name": "Здоровье Аптгангов",
+        "max_level": 10,
+        "effect_name": "Здоровье Аптгангов",
+        "effect_max": 130,
+        "effect_values": "1,7,13,20,30,41,56,75,97,130"
+    }, {
+        "slug": "secret2t8_13",
+        "name": "Здоровье Хельхестов",
+        "max_level": 10,
+        "effect_name": "Здоровье Хельхестов",
+        "effect_max": 130,
+        "effect_values": "1,7,13,20,30,41,56,75,97,130"
+    }, {
+        "slug": "secret2t8_14",
+        "name": "Здоровье воинов VIII тира",
+        "max_level": 10,
+        "effect_name": "Здоровье воинов VIII тира",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2t8_15",
+        "name": "Открытие Хаугби",
+        "max_level": 1,
+        "effect_name": "Открытие Хаугби",
+        "effect_max": 1,
+        "effect_values": "1"
+    }, {
+        "slug": "secret2t8_16",
+        "name": "Скорость обучения воинов VIII тира I",
+        "max_level": 10,
+        "effect_name": "Скорость обучения воинов VIII тира",
+        "effect_max": 25,
+        "effect_values": "1,2,3,5,7,10,13,16,20,25"
+    }, {
+        "slug": "secret2t8_17",
+        "name": "Урон Хаугби",
+        "max_level": 10,
+        "effect_name": "Урон Хаугби",
+        "effect_max": 130,
+        "effect_values": "5,11,17,26,36,48,63,81,100,130"
+    }, {
+        "slug": "secret2t8_18",
+        "name": "Защита Хаугби",
+        "max_level": 10,
+        "effect_name": "Защита Хаугби",
+        "effect_max": 130,
+        "effect_values": "5,11,17,26,36,48,63,81,100,130"
+    }, {
+        "slug": "secret2t8_19",
+        "name": "Здоровье Хаугби",
+        "max_level": 10,
+        "effect_name": "Здоровье Хаугби",
+        "effect_max": 130,
+        "effect_values": "5,11,17,26,36,48,63,81,100,130"
+    }, {
+        "slug": "secret2t8_20",
+        "name": "Защита воинов VIII тира",
+        "max_level": 10,
+        "effect_name": "Защита воинов VIII тира",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2t8_21",
+        "name": "Открытие Нидхёггов",
+        "max_level": 1,
+        "effect_name": "Открытие Нидхёггов",
+        "effect_max": 1,
+        "effect_values": "1"
+    }, {
+        "slug": "secret2t8_22",
+        "name": "Скорость обучения воинов VIII тира II",
+        "max_level": 10,
+        "effect_name": "Скорость обучения воинов VIII тира",
+        "effect_max": 35,
+        "effect_values": "1,3,6,9,12,15,19,24,29,35"
+    }, {
+        "slug": "secret2t8_23",
+        "name": "Урон Нидхёггов",
+        "max_level": 10,
+        "effect_name": "Урон Нидхёггов",
+        "effect_max": 130,
+        "effect_values": "5,11,17,26,36,48,63,81,100,130"
+    }, {
+        "slug": "secret2t8_24",
+        "name": "Защита Нидхёггов",
+        "max_level": 10,
+        "effect_name": "Защита Нидхёггов",
+        "effect_max": 130,
+        "effect_values": "5,11,17,26,36,48,63,81,100,130"
+    }, {
+        "slug": "secret2t8_25",
+        "name": "Здоровье Нидхёггов",
+        "max_level": 10,
+        "effect_name": "Здоровье Нидхёггов",
+        "effect_max": 130,
+        "effect_values": "5,11,17,26,36,48,63,81,100,130"
+    }, {
+        "slug": "secret2t8_26",
+        "name": "Открытие Вальравнов",
+        "max_level": 1,
+        "effect_name": "Открытие Вальравнов",
+        "effect_max": 1,
+        "effect_values": "1"
+    }, {
+        "slug": "secret2t8_27",
+        "name": "Скорость обучения воинов VIII тира III",
+        "max_level": 10,
+        "effect_name": "Скорость обучения воинов VIII тира",
+        "effect_max": 50,
+        "effect_values": "1,3,6,9,14,19,25,32,40,50"
+    }, {
+        "slug": "secret2t8_28",
+        "name": "Урон Вальравнов",
+        "max_level": 10,
+        "effect_name": "Урон Вальравнов",
+        "effect_max": 130,
+        "effect_values": "5,11,17,26,36,48,63,81,100,130"
+    }, {
+        "slug": "secret2t8_29",
+        "name": "Защита Вальравнов",
+        "max_level": 10,
+        "effect_name": "Защита Вальравнов",
+        "effect_max": 130,
+        "effect_values": "5,11,17,26,36,48,63,81,100,130"
+    }, {
+        "slug": "secret2t8_30",
+        "name": "Здоровье Вальравнов",
+        "max_level": 10,
+        "effect_name": "Здоровье Вальравнов",
+        "effect_max": 130,
+        "effect_values": "5,11,17,26,36,48,63,81,100,130"
+    }, {
+        "slug": "secret2t8_31",
+        "name": "Скорость исцеления воинов",
+        "max_level": 10,
+        "effect_name": "Скорость исцеления воинов",
+        "effect_max": 30,
+        "effect_values": "1,2,4,6,8,11,15,19,24,30"
+    }, {
+        "slug": "secret2t8_32",
+        "name": "Лимит обучения II",
+        "max_level": 10,
+        "effect_name": "Количество воинов в обучении",
+        "effect_max": 200,
+        "effect_values": "7,18,29,40,54,70,90,120,150,200"
+    }, {
+        "slug": "secret2t8_33",
+        "name": "Урон воинов VIII тира",
+        "max_level": 10,
+        "effect_name": "Урон воинов VIII тира",
+        "effect_max": 75,
+        "effect_values": "1,4,8,13,18,25,34,45,58,75"
+    }, {
+        "slug": "secret2t8_34",
+        "name": "Количество воинов в походе",
+        "max_level": 10,
+        "effect_name": "Количество воинов в походе",
+        "effect_max": 15,
+        "effect_values": "1,2,3,4,5,6,8,10,12,15"
+    }
 ]
