@@ -43,7 +43,7 @@
           :class="{'img-scroll': totals.type != 'tier6' && totals.type != 'tier7' && !(totals.type == 'secreto' || totals.type == 'secretd' || totals.type == 'secretf'),
                     'img-totem': totals.type == 'tier6',
                     'img-obsidian': totals.type == 'tier7',
-                    'img-soulshard': (totals.type == 'secreto' || totals.type == 'secretd' || totals.type == 'secretf')
+                    'img-soulshard': (totals.type.startsWith('secret'))
                 }"
         ></span>
         &nbsp;
@@ -95,7 +95,7 @@
           :class="{'img-scroll': totals.type != 'tier6' && totals.type != 'tier7' && !(totals.type == 'secreto' || totals.type == 'secretd' || totals.type == 'secretf'),
                     'img-totem': totals.type == 'tier6',
                     'img-obsidian': totals.type == 'tier7',
-                    'img-soulshard': (totals.type == 'secreto' || totals.type == 'secretd' || totals.type == 'secretf')
+                    'img-soulshard': (totals.type.startsWith('secret'))
                 }"
         ></span>
         &nbsp;

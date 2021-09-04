@@ -151,21 +151,60 @@
           <p>
             <router-link to="/research/secreto">
               <span class="img research-secreto w20"></span>
-              Знания - Тайные - Нападение
-              <span class="tag is-success">Новое</span>
+              Знания - Тайные I - Нападение
             </router-link>
           </p>
           <p>
             <router-link to="/research/secretd">
               <span class="img research-secretd w20"></span>
-              Знания - Тайные - Оборона
-              <span class="tag is-success">Новое</span>
+              Знания - Тайные I - Оборона
             </router-link>
           </p>
           <p>
             <router-link to="/research/secretf">
               <span class="img research-secretf w20"></span>
-              Знания - Тайные - Крепости
+              Знания - Тайные I - Крепости I
+            </router-link>
+          </p>
+          <p>
+            <router-link to="/research/secret2ofnc">
+              <span class="img research-secret2ofnc w20"></span>
+              Знания - Тайные II - Урон
+              <span class="tag is-success">Новое</span>
+            </router-link>
+          </p>
+          <p>
+            <router-link to="/research/secret2dfnc">
+              <span class="img research-secret2dfnc w20"></span>
+              Знания - Тайные II - Защита
+              <span class="tag is-success">Новое</span>
+            </router-link>
+          </p>
+          <p>
+            <router-link to="/research/secret2hlth">
+              <span class="img research-secret2hlth w20"></span>
+              Знания - Тайные II - Здоровье
+              <span class="tag is-success">Новое</span>
+            </router-link>
+          </p>
+          <p>
+            <router-link to="/research/secret2frtr">
+              <span class="img research-secret2frtr w20"></span>
+              Знания - Тайные II - Крепости II
+              <span class="tag is-success">Новое</span>
+            </router-link>
+          </p>
+          <p>
+            <router-link to="/research/secret2twn">
+              <span class="img research-secret2twn w20"></span>
+              Знания - Тайные II - Города
+              <span class="tag is-success">Новое</span>
+            </router-link>
+          </p>
+          <p>
+            <router-link to="/research/secret2t8">
+              <span class="img research-secret2t8 w20"></span>
+              Знания - Тайные II - Войска VIII тира
               <span class="tag is-success">Новое</span>
             </router-link>
           </p>

@@ -158,19 +158,49 @@ export default {
                 link: '/research/shaman'
               },
               {
-                name: 'Тайные - Нападение',
+                name: 'Тайные I - Нападение',
                 img: 'research-secreto',
                 link: '/research/secreto'
               },
               {
-                name: 'Тайные - Оборона',
+                name: 'Тайные I - Оборона',
                 img: 'research-secretd',
                 link: '/research/secretd'
               },
               {
-                name: 'Тайные - Крепости',
+                name: 'Тайные I - Крепости I',
                 img: 'research-secretf',
                 link: '/research/secretf'
+              },
+              {
+                name: 'Тайные II - Урон',
+                img: 'research-secret2ofnc',
+                link: '/research/secret2ofnc'
+              },
+              {
+                name: 'Тайные II - Защита',
+                img: 'research-secret2dfnc',
+                link: '/research/secret2dfnc'
+              },
+              {
+                name: 'Тайные II - Здоровье',
+                img: 'research-secret2hlth',
+                link: '/research/secret2hlth'
+              },
+              {
+                name: 'Тайные II - Крепости II',
+                img: 'research-secret2frtr',
+                link: '/research/secret2frtr'
+              },
+              {
+                name: 'Тайные II - Города',
+                img: 'research-secret2twn',
+                link: '/research/secret2twn'
+              },
+              {
+                name: 'Тайные II - Войска VIII тира',
+                img: 'research-secret2t8',
+                link: '/research/secret2t8'
               }
             ]
           },

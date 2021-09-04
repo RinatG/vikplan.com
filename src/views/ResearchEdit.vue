@@ -159,9 +159,15 @@ export default {
         tier5: 'Тиры I-V',
         tier6: 'Тир VI',
         tier7: 'Тир VII',
-        secreto: 'Тайные - Нападение',
-        secretd: 'Тайные - Оборона',
-        secretf: 'Тайные - Крепости'
+        secreto: 'Тайные I - Нападение',
+        secretd: 'Тайные I - Оборона',
+        secretf: 'Тайные I - Крепости I',
+        secret2ofnc: 'Тайные II - Урон',
+        secret2dfnc: 'Тайные II - Защита',
+        secret2hlth: 'Тайные II - Здоровье',
+        secret2frtr: 'Тайные II - Крепости II',
+        secret2twn:  'Тайные II - Города',
+        secret2t8:   'Тайные II - Войска VIII тира'
       },
       minLevel: 1
     };
@@ -196,6 +202,8 @@ export default {
       } else if (this.researchType === 'tier7') {
         return 'Обсидиан';
       } else if (this.researchType === 'secreto' || this.researchType === 'secretd' || this.researchType === 'secretf') {
+        return 'Осколки душ';
+      } else if (this.researchType.startsWith('secret2')) {
         return 'Осколки душ';
       } else {
         return 'Манускрипты'

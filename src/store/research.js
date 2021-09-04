@@ -39,7 +39,13 @@ export default {
             level: 1,
             secreto_level: 1,
             secretd_level: 1,
-            secretf_level: 1
+            secretf_level: 1,
+            secret2ofnc_level: 1,
+            secret2dfnc_level: 1,
+            secret2hlth_level: 1,
+            secret2frtr_level: 1,
+            secret2twn_level: 1,
+            secret2t8_level: 1
         },
         bonusList: ['research1'],
         bonuses: {
