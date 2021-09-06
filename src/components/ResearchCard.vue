@@ -1,5 +1,5 @@
 <template>
-  <div class="card research-card">
+  <div class="card research-card" :class="isNew?'research-card-new':''">
     <div class="card-content">
       <div class="media">
         <div class="media-left">
@@ -62,6 +62,10 @@ export default {
         'future2',
         this.slug
       );
+    },
+    isNew() {
+      console.log(this.slug + ": " + this.slug.startsWith('secret2'));
+      return this.slug.startsWith('secret2');
     }
   },
   methods: {}
@@ -71,6 +75,12 @@ export default {
 <style lang="scss">
 .research-card .card-content {
   padding: 0.7rem 1rem;
+}
+.research-card.research-card-new .card-content {
+  background-color: #f0f8ff;
+}
+.research-card {
+  margin-bottom: 1px;
 }
 </style>
 
