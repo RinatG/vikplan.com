@@ -141,9 +141,6 @@ export default {
                 * (1 - cur.repute/100)
                 / (1 + cur.base/100);
 
-            if (cur.level > 1) {
-            }
-    
             if (cur[researchType+'_level'] > 1) {
                 const cur_level = cur[researchType + '_level']
                 //умножить правильно осколки, время, золото и могущество                
@@ -152,6 +149,9 @@ export default {
                 totals.gold *= getters.getMultiplier(researchType, cur_level, 'gold');
                 totals.inf *= getters.getMultiplier(researchType, cur_level, 'inf');
                 //TODO: сделать это динамически - всё имеющееся в multipliers влияет на totals
+            }
+            if (cur[researchType+'_level'] !== undefined) {
+                totals.level = cur[researchType + '_level'];
             }
 
             totals.time_hands = (totals.time_calc * (1 - cur.hands/100) + totals.time_calc * (0.99 ** cur.hands)) / 2;

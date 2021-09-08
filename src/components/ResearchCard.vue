@@ -1,6 +1,6 @@
 <template>
   <div class="card research-card" :class="isNew?'research-card-new':''">
-    <div class="card-content">
+    <div class="card-content" :class="currentTotals.count<allCount?'card-notfull':''">
       <div class="media">
         <div class="media-left">
           <figure class="image">
@@ -11,7 +11,7 @@
           <p class="title is-5 has-text-justified">
             <router-link :to="'/research/' + slug">
               {{ name }}
-            </router-link>
+            </router-link><span class="research_level" v-if="currentTotals.level>0">({{ currentTotals.level }}ур.)</span>
             <span class="is-pulled-right">{{ currentTotals.count }}/{{ allCount }}</span>
           </p>
         </div>
@@ -49,22 +49,15 @@ export default {
       return this.$store.getters['research/getAllTechCountBySlug'](this.slug);
     },
     currentTotals() {
-      return this.$store.getters['research/getTotalsDiff'](
-        'current',
-        this.slug
-      );
+      return this.$store.getters['research/getTotalsDiff']('current', this.slug);
     },
     futureTotals() {
       return this.$store.getters['research/getTotalsDiff']('future', this.slug);
     },
     future2Totals() {
-      return this.$store.getters['research/getTotalsDiff'](
-        'future2',
-        this.slug
-      );
+      return this.$store.getters['research/getTotalsDiff']('future2',this.slug);
     },
     isNew() {
-      console.log(this.slug + ": " + this.slug.startsWith('secret2'));
       return this.slug.startsWith('secret2');
     }
   },
@@ -82,5 +75,16 @@ export default {
 .research-card {
   margin-bottom: 1px;
 }
+.research-card .card-content.card-notfull .image .img {
+    border: 2px solid #dadada;
+    border-radius: 3px;
+    outline: none;
+    border-color: #ffe08a;
+    box-shadow: 0 0 10px #ffe08a;
+}
+.research-card .card-content .research_level {
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 4px;
+}
 </style>
-
