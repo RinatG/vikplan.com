@@ -30,6 +30,10 @@ export const routes = [
     component: Equipment
   },
   {
+    path: '/gems',
+    component: GemsList
+  },
+  {
     path: '/research',
     component: ResearchMain
   },
