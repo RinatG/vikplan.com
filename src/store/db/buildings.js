@@ -16867,7 +16867,7 @@ export default [
 		"bronze2": 109487,
 		"bronze3": 30000000,
 		"gold": 130000000,
-		"time_days": 23739,
+		"time_days": 166177,
 		"time_seconds": 0,
 		"effect1_value": "",
 		"effect2_value": "",
