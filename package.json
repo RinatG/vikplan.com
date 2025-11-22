@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "bulma": "^0.9.3",
-    "firebase": "^8.6.8",
+    "firebase": "^10.9.0",
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
